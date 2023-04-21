@@ -1,0 +1,95 @@
+
+#banner .container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav {
+    margin-bottom: 130px;
+  }
+  #banner .left {
+    margin-top: 50px;
+    flex: 1;
+    text-align: center;
+  }
+  #banner .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+  }
+  
+  .right iframe {
+    border-radius: 220px 50px 25px 25px;/* Menambahkan border radius sebesar 5 piksel */
+    height: 500px; /* Mengatur tinggi iframe menjadi 200 piksel */
+    width: 700px; /* Mengatur lebar iframe menjadi 300 piksel */
+  }
+  .my-button {
+    margin-left: 10px;
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #55eb78;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px; /* Border radius untuk sisi atas kiri dan kanan */
+    margin-top: 20px; /* Margin top agar tidak terlalu rapat dengan teks di banner */
+  }
+  
+  .my-button:hover {
+    background-color: #218838;
+  }
+  
+  .my-button:active {
+    background-color: #1e7e34;
+  }
+
+  #produk h1 {
+    text-align: center; /* Menyusun teks di tengah */
+    margin: 5%;
+  }
+
+   /* CSS untuk menyesuaikan tinggi dan lebar gambar pada card */
+   .card .card-img-top {
+    height: 200px; /* Tinggi gambar 200px */
+    width: 100%; /* Lebar gambar 100% (mengisi seluruh lebar card) */
+    object-fit: cover; /* Menyusun gambar dengan mengisi card secara proporsional */
+  }
+  h2 {
+  text-align: center; /* Menyusun teks h2 menjadi rata tengah */
+  margin-bottom: 10px; /* Menambahkan margin bawah sebesar 20px */
+  }
+
+  #tentangkami h1 {
+  text-align: center; /* Menyusun teks di tengah */
+  margin: 5%;
+  }
+  
+  #tentangkami p{
+    text-align: start;
+    margin: 3%;
+ }
+
+ #serivice h1 {
+  text-align: center; /* Menyusun teks di tengah */
+  margin: 5%;
+  }
+  
+  #service p{
+    text-align: start;
+    margin: 3%;
+ }
+
+ #contact h1{
+  text-align: center; /* Menyusun teks di tengah */
+  margin: 5%;
+ }
+
+ #footer {
+  margin: 5px;
+ }
+
+ section{
+  padding-top: 1rem;
+ }
